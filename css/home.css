@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* form container */
+
+.form-container {
+    background-color: aquamarine;
+    width: 300px;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.2);
+    margin: 5opx auto;
+}
+
+#error {
+    color: red;
+    text-align: center;
+}
+
+.form-container h3 {
+    text-align: center;
+    padding: 8px;
+}
+
+input[type=text],
+input[type=password] {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid lightskyblue;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    background-color: darkblue;
+    width: 100%;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+    border: navajowhite;
+}
+
+.form-grp .fa {
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    display: none;
+}
+
+.fa-times {
+    color: red;
+}
+
+.fa-check {
+    color: green;
+}
+
+.logo img {
+    width: 100px;
+    float: left;
+    height: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+}
+
+header {
+    background: url("images/ground.webp");
+    height: 100vh;
+    position: relative;
+    background: blanchedalmond;
+    background-color: blanchedalmond;
+    background-position: center;
+    position: relative;
+    fill: blanchedalmond;
+    border-radius: inherit;
+}
+
+.nav-area li a {
+    color: black;
+    padding: 4px 18px;
+    font-family: fantasy;
+    font-size: 15px;
+    text-decoration: lightyellow;
+}
+
+.nav-area {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-area li {
+    display: inline;
+}
+
+.nav-area li a:hover {
+    background: #fff;
+    color: limegreen;
+}
